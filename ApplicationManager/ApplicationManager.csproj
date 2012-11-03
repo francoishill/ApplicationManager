@@ -90,6 +90,9 @@
       <Link>AppManagerInterface.xaml.cs</Link>
       <DependentUpon>AppManagerInterface.xaml</DependentUpon>
     </Compile>
+    <Compile Include="..\..\SharedClasses\CalledFromService.cs">
+      <Link>CalledFromService.cs</Link>
+    </Compile>
     <Compile Include="..\..\SharedClasses\CompareObjects.cs">
       <Link>CompareObjects.cs</Link>
     </Compile>
@@ -114,6 +117,7 @@
     </Compile>
     <Compile Include="..\..\SharedClasses\MiniDownloadBarForm.cs">
       <Link>MiniDownloadBarForm.cs</Link>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\..\SharedClasses\MiniDownloadBarForm.designer.cs">
       <Link>MiniDownloadBarForm.designer.cs</Link>
